@@ -11,7 +11,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 from getpass import getpass
 
-username = "shiny.s@exeterpremedia.com"
+username = "XXXXXX.XXXXX@XXX.Com"
 password = 12345
 PATH = 'E:\seleniumautologin\chromedriver'
 driver = webdriver.Chrome(PATH)
@@ -21,7 +21,7 @@ driver = webdriver.Chrome(PATH)
 
 
 def user_login():
-    driver.get("https://testing.kriyadocs.com/dashboard")
+    driver.get("https://testing.XXXX.com//dashbaord")
 
     username_textbox = driver.find_element_by_id("username")
     username_textbox.send_keys(username)
